@@ -13,7 +13,7 @@ pipeline {
                     sh "mvn clean install package"
                 }
             }
-        }
+        
         stage('Status'){
             steps{
                 echo " Build is success"
